@@ -1,0 +1,78 @@
+#logotipo{
+    font-family: 'InstaFont' !important;
+}
+
+ion-slide > img{
+    width: 50px;
+    border-radius: 50%;
+}
+ion-slide{
+    width: 75% !important;
+    justify-content: space-around !important;
+}
+
+ion-slides{
+    margin-left: 5px !important;
+    padding-bottom: 0% !important;
+    margin-right: 0% !important;
+}
+
+ion-card > *{
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+}
+ion-card{
+    width: 100% !important;
+    margin: 0% !important;
+}
+
+
+
+.usuariopublicacion{
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    padding-left: 0% !important;
+}
+
+ion-card-content{
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    width: 100% !important;
+}
+
+
+.fotop1, .fotop2, .fotop3{
+    position: relative;
+    display: inline-block !important;
+}
+.fotop2, .fotop3{
+    margin-left: -20% !important;
+}
+.divcard{
+    display: flex !important; 
+    align-items: center !important; 
+    justify-content: center !important; 
+    flex-direction: column !important;
+}
+
+//centrar clase publicacion
+.publicacion{
+    display: flex !important; 
+    align-items: center !important; 
+    justify-content: center !important; 
+    flex-direction: column !important;
+}
+
+// centrar etiqueta grid
+
+
+@media screen and (min-width: 600px) {
+    .fotop2, .fotop3{
+        margin-left: -10% !important;
+    }
+}
+
